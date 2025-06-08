@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+# *.ipynb  # Commented out to include .ipynb files
+
+# Model files - ignore specific files but keep gradient_boost.pkl and feature_columns_gb.pkl
+models/linear_model.pkl
+models/lasso_model.pkl
+models/random_forest.pkl
+models/scaler_linear.pkl
+models/scaler_lasso.pkl
+models/feature_columns_linear.pkl
+models/feature_columns_lasso.pkl
+models/feature_columns_rf.pkl
+models/oldgradient_boost.pkl 
