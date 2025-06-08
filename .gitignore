@@ -44,13 +44,6 @@ Thumbs.db
 .ipynb_checkpoints
 # *.ipynb  # Commented out to include .ipynb files
 
-# Model files - ignore specific files but keep gradient_boost.pkl and feature_columns_gb.pkl
-models/linear_model.pkl
-models/lasso_model.pkl
-models/random_forest.pkl
-models/scaler_linear.pkl
-models/scaler_lasso.pkl
-models/feature_columns_linear.pkl
-models/feature_columns_lasso.pkl
-models/feature_columns_rf.pkl
+# Model files - ignore all except linear and gradient boost files
+
 models/oldgradient_boost.pkl 
