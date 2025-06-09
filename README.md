@@ -13,6 +13,7 @@ Set up a Virtual Environment
 Install Flask
 - After activating the virtual environment, install Flask by running:
   - `pip install Flask`
+  - You may need to run pip install for other libraries -> xgboost, numpy, pandas, seaborn, joblib, etc
 
 Run the Application
 - In your terminal, within the project directory, run:
